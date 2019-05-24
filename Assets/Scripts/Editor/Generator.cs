@@ -11,7 +11,7 @@ public static class Generator
     private const int YearStart = 1900;
     private const int YearEnd = 2000;
     private const string InputFilePath = "Assets/GeneratedData/Input.json";
-    private const string OutputFilePath = "Assets/GeneratedData/Output.json";
+    private const string OutputFilePath = "Assets/GeneratedData/Output.txt";
 
     [MenuItem("Tools/Generate Input")]
     public static void GenerateInputData()
